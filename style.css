@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F7F8;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    
+    
+}
+.ans{
+    
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    height: auto;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 8px;
+    width: 100%;
+    background-color: black;
+    text-align: end;
+    border-bottom: 1px solid lightgrey;
+}
+.ans p{
+    font-size: 1rem;
+    color: white;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    
+}
+.ans h3{
+    color: #F4CE14;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+
+} 
+.calculator{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    /* padding: 1rem; */
+    padding-top: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 8px;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.row .btn{
+    margin: 5px;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #607274;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-func ,#nums{
+    margin: 5px;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #607274;
+    color: white;
+    cursor: pointer;
+}
+#endBtn{
+    margin: 5px;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4CE14;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
